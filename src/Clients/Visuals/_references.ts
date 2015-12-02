@@ -199,3 +199,6 @@
 /// <reference path="visuals/donutChart.ts"/>
 
 /// <reference path="plugins.ts"/>
+
+/// <reference path="../../IAVisuals/_references.ts"/>
+
