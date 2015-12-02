@@ -1,7 +1,7 @@
 {
     "name": "powerbi-visuals",
     "version": "0.2.4",
-    "description": "Microsoft PowerBI Visuals",  
+    "description": "Microsoft PowerBI Visuals",
     "devDependencies": {
         "del": "^1.2.1",
         "express": "4.13.3",
@@ -42,12 +42,12 @@
         "live-server": "node node_modules/live-server/live-server.js src/Clients/PowerBIVisualsPlayground",
         "build": "gulp",
         "w-dev": "start cmd /k \"npm run live-server\" & node node_modules/nodemon/bin/nodemon.js -V --watch src/IAVisuals -e html,less,ts --exec npm run build",
-        "m-dev": "start cmd /k \"npm run live-server\" & node node_modules/nodemon/bin/nodemon.js -V --watch src/IAVisuals -e html,less,ts --exec npm run build"
+        "m-dev": "npm run live-server & node node_modules/nodemon/bin/nodemon.js -V --watch src/IAVisuals -e html,less,ts --exec npm run build"
     },
     "author": "Microsoft PowerBI Visuals",
     "license": "MIT",
     "repository": {
-        "type": "git", 
+        "type": "git",
         "url": "https://github.com/Microsoft/PowerBI-visuals.git"
     },
     "bugs": "https://github.com/Microsoft/PowerBI-visuals/issues",
