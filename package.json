@@ -35,7 +35,8 @@
         "stream-consume": "^0.1.0",
         "tslint": "2.4.2",
         "typescript": "1.5.3",
-        "yargs": "^3.20.0"
+        "yargs": "^3.20.0",
+        "live-server": "^0.8.2"
     },
     "scripts": {
         "predev": "npm install gulp -g & npm install gulp & npm install nodemon & npm install live-server & npm install --dev",
